@@ -1,0 +1,11 @@
+[install] from http://guides.rubyonrails.org/getting_started.html
+sqlite3 --version
+gem install rails
+rails --version
+
+[start]
+rails new blog (or check rails new -h)
+# app is the meat, lib are extended modules
+# add 'therubyracer' to Gemfile if no JS runtime present
+bundle
+bin/rails server
