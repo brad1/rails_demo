@@ -9,3 +9,12 @@ rails new blog (or check rails new -h)
 # add 'therubyracer' to Gemfile if no JS runtime present
 bundle
 bin/rails server
+
+[add stuff]
+bin/rails generate controller Welcome index
+# outputs:
+      create  app/controllers/welcome_controller.rb
+      route  get 'welcome/index'
+      invoke  erb
+
+test with get: http://localhost:3000/welcome/index
