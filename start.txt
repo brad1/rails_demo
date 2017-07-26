@@ -33,6 +33,6 @@ bin/rails generate controller Articles
 # The action 'index' could not be found for ArticlesController
 
 
-
+# http://guides.rubyonrails.org/getting_started.html
 
 
