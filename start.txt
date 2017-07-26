@@ -17,4 +17,22 @@ bin/rails generate controller Welcome index
       route  get 'welcome/index'
       invoke  erb
 
-test with get: http://localhost:3000/welcome/index
+# test with get: http://localhost:3000/welcome/index
+# next list known routes:
+
+bin/rails routes
+
+# for now, only shows welcome index
+# generate articles resource:
+
+bin/rails generate controller Articles
+
+# check routes again, still just welcome index
+# to make articles avaliable, add the following to config/routes.rb (route table# resources :articles
+# the routes show up in rails now, but browser will display:
+# The action 'index' could not be found for ArticlesController
+
+
+
+
+
